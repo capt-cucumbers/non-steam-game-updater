@@ -1,0 +1,97 @@
+{
+  "example_game_id": {
+    "global_id": "3b72a301-65e8-4525-a787-9a44c3fa0d0d",
+    "game_id": "example_game_id",
+    "game_source": "local",
+    "platform": "Windows",
+    "game_name": "Example Game",
+    "game_folder": "Example Game",
+    "game_dir": "C:\\Games\\Example Game",
+    "game_version": "1.0.0",
+    "application_path": "bin\\game.exe",
+    "application_arguments": "--fullscreen",
+    "config_app_path": "",
+    "config_app_arguments": "",
+    "is_installed": true,
+    "is_favorite": false,
+    "is_broken": false,
+    "is_portable": false,
+    "is_hidden": false,
+    "use_dosbox": false,
+    "dosbox_config_path": "",
+    "dosbox_version_path": "",
+    "status": "",
+    "progress": "",
+    "metadata_source": "igdb",
+    "metadata_id": "12345",
+    "media_source": "steam",
+    "media_id": "2344520",
+    "metadata": {
+      "game_id": "example_game_id",
+      "game_source": "local",
+      "metadata_dir": "C:\\Games\\Example Game\\Metadata",
+      "metadata_source": "igdb",
+      "metadata_id": "12345",
+      "title": "Example Game",
+      "release_date": "2026-07-06T00:00:00",
+      "release_type": "",
+      "developer": "Developer Name",
+      "publisher": "Publisher Name",
+      "region": "Worldwide",
+      "genre": "Action;Adventure",
+      "play_mode": "Single-player",
+      "max_players": 1,
+      "rating": "",
+      "series": "",
+      "video_url": "",
+      "wikipedia_url": "",
+      "description": "An example game description.",
+      "field_sources": {
+        "title": "igdb",
+        "developer": "igdb",
+        "description": "igdb"
+      },
+      "added_at": "2026-07-06T00:00:00",
+      "updated_at": "2026-07-06T00:00:00"
+    },
+    "media": {
+      "game_id": "example_game_id",
+      "game_source": "local",
+      "media_dir": "C:\\Games\\Example Game\\Media",
+      "media_source": "steam",
+      "media_id": "2344520",
+      "image_paths": {
+        "icon": "./Images/processed/icon.png",
+        "logo": "./Images/processed/logo.png",
+        "cover": "./Images/processed/cover.jpg",
+        "hero": "./Images/processed/hero.jpg",
+        "background": "./Images/processed/background.jpg"
+      },
+      "video_paths": {},
+      "manual_path": "",
+      "music_path": "",
+      "asset_sources": {
+        "image_paths": {
+          "cover": "steam",
+          "hero": "steam"
+        },
+        "video_paths": {},
+        "manual_path": "",
+        "music_path": ""
+      },
+      "added_at": "2026-07-06T00:00:00",
+      "updated_at": "2026-07-06T00:00:00"
+    },
+    "addl_apps": [
+      {
+        "app_name": "Backup Saves",
+        "app_path": "C:\\GameBox\\run.bat",
+        "app_arguments": "--source local backuphandler --game-id example_game_id --backup",
+        "auto_run_after": true
+      }
+    ],
+    "extras": {},
+    "added_at": "2026-07-06T00:00:00",
+    "updated_at": "2026-07-06T00:00:00"
+  }
+}

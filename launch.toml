@@ -1,0 +1,12 @@
+[project]
+name = "Non-Steam Game Updater"
+package = "non_steam_game_updater"
+venv = ".venv"
+default = "cli"
+elevate = true
+
+[commands]
+cli = { cmd = ["python", "-m", "non_steam_game_updater.cli"], description = "Command-line interface" }
+tui = { cmd = ["python", "-m", "non_steam_game_updater.tui"], description = "Interactive Textual TUI" }
+update = { cmd = ["python", "-m", "non_steam_game_updater.cli", "manifest"], description = "Update non-Steam shortcuts" }
+remove = { cmd = ["python", "-m", "non_steam_game_updater.cli", "remove"], description = "Remove non-Steam shortcuts" }

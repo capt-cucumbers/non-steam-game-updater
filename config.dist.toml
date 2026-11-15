@@ -1,0 +1,22 @@
+[defaults]
+steam_dir = "C:\\Program Files (x86)\\Steam"
+steam3_id = ""
+epic_data_dir = "C:\\ProgramData\\Epic"
+
+[platforms]
+windows = "Windows"
+
+[sources]
+amazon = "Amazon Games"
+depot = "Depot"
+epic = "Epic Games"
+exoappleiigs = "eXoAppleIIGS"
+exodos = "eXoDOS"
+exodreamm = "eXoDREAMM"
+exoscummvm = "eXoScummVM"
+exowin3x = "eXoWin3x"
+exowin9x = "eXoWin9x"
+gog = "GOG.com"
+local = "Local"
+steam = "Steam"
+xbox = "Xbox"

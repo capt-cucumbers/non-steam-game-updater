@@ -1,0 +1,3 @@
+[windows.local]
+manifest_name = "Windows - Local"
+manifest_path = "manifest.dist.json"
